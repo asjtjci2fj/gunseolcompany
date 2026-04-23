@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>건설회사만들기</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js" defer></script>
+    <script src="./js/custom.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="hd_wrap inner">
+            <h1>
+                <a href="/">
+                    <span class="blind">로고</span>
+                </a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="#">회사소개</a>
+                        <ul>
+                            <li><a href="#">비전</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">조직도</a></li>
+                            <li><a href="#">경영이념</a></li>
+                            <li><a href="#">오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">서비스</a>
+                        <ul>
+                            <li><a href="#">컨설팅</a></li>
+                            <li><a href="#">유지보수</a></li>
+                            <li><a href="#">운영관리</a></li>
+                            <li><a href="#">기술지원</a></li>
+                            <li><a href="#">커스터마이징</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">혁신기술</a>
+                        <ul>
+                            <li><a href="#">인공지능</a></li>
+                            <li><a href="#">빅데이터</a></li>
+                            <li><a href="#">클라우드</a></li>
+                            <li><a href="#">자동화</a></li>
+                            <li><a href="#">IoT</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">솔루션</a>
+                        <ul>
+                            <li><a href="#">통합관리</a></li>
+                            <li><a href="#">보안시스템</a></li>
+                            <li><a href="#">데이터분석</a></li>
+                            <li><a href="#">플랫폼</a></li>
+                            <li><a href="#">시스템구축</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">고객지원</a>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">문의하기</a></li>
+                            <li><a href="#">자료실</a></li>
+                            <li><a href="#">기술지원</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="utils">
+                <a href="#">
+                    <i data-lucide="search" class="btn"></i>
+                </a>
+                <a href="#">
+                    <i data-lucide="globe" class="btn"></i>
+                </a>
+                <a href="#">
+                    <i data-lucide="user-round" class="btn"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main_visual">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide itm itm01">
+                        <div class="slg">
+                            <strong>튼튼한 내일을 짓습니다</strong>
+                            <p>기초부터 완성까지, 신뢰로 쌓아 올리는 건설 파트너입니다</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm itm02">
+                        <div class="slg">
+                            <strong>보이지 않는 곳까지 완벽하게</strong>
+                            <p>작은 디테일까지 놓치지 않는 정직한 시공을 약속합니다</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm itm03">
+                        <div class="slg">
+                            <strong>공간을 넘어 가치를 만듭니다</strong>
+                            <p>사람과 도시를 잇는 지속 가능한 건설을 실현합니다</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="arrows">
+                    <button class="swiper-button-prev prev"><i data-lucide="chevron-left" class="btn"></i></button>
+                    <button class="swiper-button-next next"><i data-lucide="chevron-right" class="btn"></i></button>
+                </div>
+            </div>
+        </section>
+        <section class="main_info">
+            <div class="title">
+                <h2>신뢰로 쌓는 건설의 기준</h2>
+                <p>안전과 품질을 최우선으로, 믿을 수 있는 시공을 제공합니다</p>
+            </div>
+            <div class="inner">
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/_p01.jpg" alt="">
+                    </div>
+                    <div class="txt_box">
+                        <strong>정밀 시공</strong>
+                        <p>오차를 최소화한 공정 관리로<br>
+                            완성도 높은 결과를 만듭니다</p>
+                    </div>
+                </div>
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/_p02.jpg" alt="">
+                    </div>
+                    <div class="txt_box">
+                        <strong>안전 최우선</strong>
+                        <p>모든 현장에서 안전을 기준으로<br>
+                            철저한 시공을 진행합니다</p>
+                    </div>
+                </div>
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/_p03.jpg" alt="">
+                    </div>
+                    <div class="txt_box">
+                        <strong>지속 가능한 건설</strong>
+                        <p>환경과 미래를 고려한<br>
+                            책임 있는 건설을 실현합니다</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"></footer>
+</body>
+
+</html>

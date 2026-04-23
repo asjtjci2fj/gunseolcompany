@@ -1,0 +1,153 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.header.on {
+    background: var(--w-color);
+}
+
+.header .hd_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.header h1 a {
+    display: block;
+    width: 180px;
+    height: 40px;
+    background: url(../images/logo_w.png);
+}
+
+.header.on h1 a {
+    background: url(../images/logo.png);
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header .gnb>ul>li>a {
+    display: block;
+    line-height: 80px;
+    color: var(--w-color);
+    white-space: nowrap;
+}
+
+.header .gnb>ul>li {
+    position: relative;
+}
+
+.header .gnb>ul>li>ul {
+    position: absolute;
+}
+
+.header .utils {
+    display: flex;
+    gap: 8px;
+}
+
+.header .utils {
+    color: var(--w-color);
+}
+
+.main_visual {
+    position: relative;
+}
+
+.main_visual .itm {
+    position: relative;
+    height: 100vh;
+}
+
+.main_visual .itm .slg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: var(--w-color);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main_visual .itm .slg strong {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.main_visual .itm .slg p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.main_visual .itm01 {
+    background: url(../images/_index_bg01.jpg) no-repeat center center/cover;
+}
+
+.main_visual .itm02 {
+    background: url(../images/_index_bg02.jpg) no-repeat center center/cover;
+}
+
+.main_visual .itm03 {
+    background: url(../images/_index_bg03.jpg) no-repeat center center/cover;
+}
+
+.main_visual .arrows {
+    background: rgba(255, 255, 255, 0.75);
+}
+
+/* .main_visual .next_btn {
+    color: var(--text-color);
+} */
+
+.main_info {
+    padding: 80px 0;
+}
+
+.main_info .title {
+    text-align: center;
+}
+
+.main_info .title h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.main_info .title p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-top: 16px;
+}
+
+.main_info .inner {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.main_info .inner .txt_box {
+    text-align: center;
+}
+
+.main_info .inner .txt_box strong {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.main_info .inner .txt_box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+}
